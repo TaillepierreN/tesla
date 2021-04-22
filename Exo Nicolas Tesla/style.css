@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/tuture.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+.top{
+    position: relative;
+    height: 30%;
+    width: 100%;
+}
+.logo img{
+    display: block;
+    padding-top: 1%;
+    height: 9vh;
+}
+.header{
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    border: 1px solid #514E4E;
+    width: 15%;
+    background: linear-gradient(180deg, black,rgb(27, 10, 10),#790909,red);
+    border-top-left-radius: 20% 100%;
+    border-bottom-right-radius: 20% 100%;
+}
+.header:hover,
+.header:focus{
+    background: linear-gradient(180deg, red,#790909,black);
+
+}
+.header h1{
+    color: #857b7b;
+    padding: 12px 12px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 5500;
+   
+}
+.menu i {
+    float: right;
+    color: #514E4E;
+    margin-right: 2%;
+    margin-top: -5%;
+}
+.menu i:hover,
+.menu i:focus{
+    color: red;
+}
+.mid{
+    position: relative;
+    height: 30%;
+    width: 100%;
+}
+.vid{
+    display: block;
+    height: 11vh;
+    width: 11vh;
+    position: relative;
+    top: 35vh;
+    left: 5%;
+}
+.vidborder{
+    display: block;
+    border-top-left-radius: 25% 25% ;
+    border-bottom-right-radius: 25% 25%;
+    border: 1px solid gray;
+    height: 13vh;
+    width: 12vh;
+    position: absolute;
+    top: 34vh;
+    left: 4.7%;
+    transform:rotate(-11deg)
+}
+.vidborder:hover,
+.vidborder:focus{
+    border: 2px solid rgb(211, 24, 11);
+
+}
+.vidborder:active{
+    border: 2px solid rgb(214, 208, 208);
+
+}
+.vid img{
+    width: 100%;
+    }
+.vid:hover,
+.vid:focus{
+    height: 11vh;
+    width: 11vh;
+}
+.miles{
+    float: right;
+    width: 11vh;
+    height: 10vh;
+    text-align: center;
+    position: relative;
+    right: 2%;
+    top: 23vh;
+}
+.miles{
+    color: #FF0C0C;
+    padding-top: 1%;
+}
+.miles.border {
+    position: absolute;
+    right: 2%;
+    top: 34vh;
+    border: 2px dashed gray;
+    border-radius: 50%;
+}
+.miles.border:hover,
+.miles.border:focus{
+    -webkit-animation-name: Rotate;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: Rotate;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: Rotate;
+    -ms-animation-duration: 2s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+}
+
+.bot{
+    position: relative;
+    top: 60vh;
+    width: 100%;
+}
+.jan{
+    float: left;
+    margin-top: 3%;
+    margin-left: 3%;
+
+}
+.jan h1{
+    color: #756F6F;
+    font-size: 3em;
+    font-weight: 5000;
+    font-family: sans-serif ;
+    transition: all 1s ease;
+}
+.jan h1:hover,
+.jan h1:focus{
+    color: red;
+}
+.coming{
+    position: relative;
+    left:29.2%;
+    width: 55%;
+
+}
+.coming h1{
+    color: #AB2020;
+    font-size: 4em;
+    font-weight: 5000;
+    font-family: sans-serif ;
+    transition: all 1s ease;
+
+}
+.coming h1:hover,
+.coming h1:focus{
+   color: rgba(255, 192, 57, 100);
+}
+.year{
+    float: right;
+    margin-top: -1%;
+}
+.year h1{
+    color: #756F6F;
+    font-size: 3em;
+    font-weight: 5000;
+    font-family: sans-serif ;
+    transition: all 1s ease;
+}
+.year h1:hover,
+.year h1:focus{
+    color: red;
+
+}
+
+@-webkit-keyframes Rotate
+{
+ from{-webkit-transform:rotate(0deg);}
+ to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes Rotate
+{
+ from{-moz-transform:rotate(0deg);}
+ to{-moz-transform:rotate(360deg);}
+}
+@-ms-keyframes Rotate
+{
+ from{-ms-transform:rotate(0deg);}
+ to{-ms-transform:rotate(360deg);}
